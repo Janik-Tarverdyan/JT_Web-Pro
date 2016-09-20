@@ -1,0 +1,28 @@
+{
+    "name" : "Screen Capturing",
+    "author": "Gevorg Taryan",
+    "version" : "1.0",
+    "manifest_version" : 2,
+    "minimum_chrome_version": "34",
+    "description" : "This WebRTC screen capturing extension can be used within any WebRTC library/application! Use getScreenId.js!",
+    "homepage_url": "https://www.facebook.com/gevorg.tarverdyan.3",
+    "background": {
+        "scripts": ["background-script.js"],
+        "persistent": false
+    },
+    "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "content-script.js" ],
+      "matches": [ "*://www.webrtc-experiment.com/*" ]
+   } ],
+    "icons" : {
+        "48" : "icon.png"
+    },
+    "permissions": [
+        "desktopCapture"
+    ],
+    "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAh0HSkKPGZo/eCUT8fA0B9cU9W8a2GbN6zC/E4gx9tLrKwgIHzV0M5kcAhYPHcoHsAcLK/2+0KsvTL5/zK/ob9MP2YD6bAMmc2n1Cv9Tc3T5gKox264z1Ot8gRGLUV5PHS2vAqAZ71ZwQ+1GGGWWL+OIrM/64/9cSCOWQwegehV4HEG+zSO42yM9qkLzyCHkCSn8hAYwDNrijE8WGRU21WI5zDsOYM4TlXHZkntpYhuyY7sMF3MsIMYiHySXp200dYfRfbhC74EFIg7rZnxppINuKk11YQ4DYxBDMIlOORYwhm5EHNFb8iizGsic3DLsy8vsHeNGY2afNrm6MCOFgnQIDAQAB",
+    "web_accessible_resources": [
+        "icon.png"
+    ]
+}

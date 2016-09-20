@@ -1,0 +1,59 @@
+[
+    {
+        "name": "kandy-io/kandy-laravel",
+        "version": "2.4.2",
+        "version_normalized": "2.4.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Kandy-IO/kandy-laravel.git",
+            "reference": "b2a920d5e23c42a6b2e96164eb0bf13ddc4071b0"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Kandy-IO/kandy-laravel/zipball/b2a920d5e23c42a6b2e96164eb0bf13ddc4071b0",
+            "reference": "b2a920d5e23c42a6b2e96164eb0bf13ddc4071b0",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.5.9"
+        },
+        "time": "2016-02-17 08:13:55",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "classmap": [
+                "src/database/migrations",
+                "src/Models",
+                "src/controllers"
+            ],
+            "psr-4": {
+                "Kodeplus\\Kandylaravel\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Kodeplus",
+                "email": "kodeplusdev@gmail.com",
+                "homepage": "http://kandy.io"
+            }
+        ],
+        "description": "This Laravel package encapsulates all of Kandy’s JS SDK and Restful APIs. Kandy is a product by GENBAND (www.genband.com) that utilizes WebRTC to enable peer to peer audio and video calls and chat. SMS and PSTN calling support will be added to this package in the near future.",
+        "homepage": "https://github.com/Kandy-IO/kandy-laravel",
+        "keywords": [
+            "WebRTC",
+            "audio",
+            "chat",
+            "collaboration",
+            "kandy",
+            "laravel webrtc",
+            "peer-to-peer video",
+            "streaming",
+            "video",
+            "video streaming"
+        ]
+    }
+]

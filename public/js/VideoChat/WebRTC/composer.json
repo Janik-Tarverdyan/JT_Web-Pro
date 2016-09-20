@@ -1,0 +1,5 @@
+{
+    "require": {
+        "kandy-io/kandy-laravel": "^2.4"
+    }
+}

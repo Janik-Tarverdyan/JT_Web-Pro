@@ -1,0 +1,9 @@
+1 --> sudo apt-get update
+2 --> sudo apt-get install nodejs
+3 --> sudo apt-get install npm
+4 --> cd peerjs-server
+5 --> npm install
+6 --> cd /usr/local/lib
+7 --> sudo npm install peer
+8 --> sudo npm install peer -g
+9 --> peerjs --port 9000 --key peerjs
